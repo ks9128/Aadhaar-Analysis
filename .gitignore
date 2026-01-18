@@ -1,0 +1,22 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.ipynb_checkpoints/
+.venv/
+.env
+
+# Project Specific
+overleaf_package/
+uidai_report_overleaf.zip
+report_package_v3.zip
+PROJECT_EXPLANATION.md
+README_DASHBOARD.md
+
+# Data (Exclude raw large files, keep processed if needed, but user wants selective add)
+data/
+
+# OS
+.DS_Store
+Thumbs.db
