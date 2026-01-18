@@ -118,6 +118,9 @@ def html_plot(filename, height=600):
 # ---------------------------------------------------------
 # SIDEBAR NAVIGATION
 # ---------------------------------------------------------
+if os.path.exists("assets/aadhaar_logo.png"):
+    st.sidebar.image("assets/aadhaar_logo.png", use_container_width=True)
+
 st.sidebar.title("Strategic Analysis")
 page = st.sidebar.radio("Navigate", [
     "Executive Summary", 

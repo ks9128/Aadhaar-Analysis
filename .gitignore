@@ -17,6 +17,9 @@ README_DASHBOARD.md
 # Data (Exclude raw large files, keep processed if needed, but user wants selective add)
 data/
 
+# Assets
+!assets/aadhaar_logo.png
+
 # OS
 .DS_Store
 Thumbs.db
